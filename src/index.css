@@ -1,0 +1,13 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F8F9FA;
+    color: #1F1F1F;
+    font-family: "Unbounded", sans-serif;
+}

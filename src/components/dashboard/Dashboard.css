@@ -1,0 +1,163 @@
+/* Main container */
+.profile-card {
+    background-color: #80AF81; 
+    width: 20vw;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    color: #1F1F1F;
+    position: fixed;
+    /* left: 0; */
+    right: 15px;
+    bottom: 15px;
+    height: 80vh;
+  }
+  
+  /* Profile picture */
+  .profile-picture img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #fff;
+    margin-bottom: 20px;
+  }
+  
+  /* User name */
+  .profile-card h2 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Tags */
+  .tags {
+    margin-bottom: 20px;
+  }
+  
+  .tag {
+    display: inline-block;
+    background-color: #e5e5e5;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Badges section */
+  .profile-card h3 {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #333;
+  }
+  
+  .badges {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+  }
+  
+  .badges span {
+    font-size: 24px;
+    margin: 10px;
+  }
+  
+
+
+
+
+
+
+
+.main-container{
+    /* width: 70vw; */
+    margin-right: 22vw;
+    text-align: justify;
+  }
+
+
+
+
+
+
+
+
+
+
+  /* Main container */
+.dashboard {
+    
+    padding: 20px;
+  }
+  
+  /* Greeting Section */
+  .greeting h1 {
+    font-size: 40px;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  /* Stats Cards Section */
+  .stats-cards {
+    display: flex;
+    justify-content: space-between;
+    background-color: #80AF81; 
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 22%; 
+  }
+  
+  .card h2 {
+    font-size: 70px;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+  }
+  
+  .card p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Analytics Section */
+  .analytics {
+    margin-top: 20px;
+  }
+  
+  .analytics h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  
+  .analytics-cards {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .analytics-card {
+    background-color: #FDE2D1; 
+    border-radius: 20px;
+    height: 200px;
+    width: 35%; 
+    height: 600px;
+  }
+  .anc2{
+    width: 63%;
+   
+  }
