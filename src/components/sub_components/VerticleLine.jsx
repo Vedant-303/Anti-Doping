@@ -9,6 +9,7 @@ function VerticleLine({ScrollPosition, style, growStyle}) {
     useEffect(() => {
         const handleScroll = () => {
           const scrollPosition = window.scrollY;
+          console.log('Scroll position:', window.scrollY);
           if (scrollPosition > ScrollPosition) {
             setIsVisible(true);
           } else {
