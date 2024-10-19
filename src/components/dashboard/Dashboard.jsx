@@ -2,10 +2,14 @@ import React from "react";
 import SideMenu from "../sidemenu/Menu";
 import "./Dashboard.css";
 import profileimg from "../../assets/sample.jpg";
+import SearchBar from "../sub_components/Searchbar";
 
 function Dashboard() {
   return (
     <>
+
+      
+
       <div className="main-container">
         <div className="middle-container">
           <div className="dashboard">
@@ -157,6 +161,9 @@ function Dashboard() {
           blanditiis quos, unde quaerat eaque, omnis magnam cumque assumenda?
         </div>
       </div>
+
+
+      <SearchBar/>
 
       <div className="profile-card">
         <div className="profile-picture">
