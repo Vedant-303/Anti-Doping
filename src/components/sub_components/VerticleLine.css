@@ -1,0 +1,22 @@
+/* Vertical dashed line */
+.vertical-line {
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  width: 6px;
+  height: 0; 
+  background: repeating-linear-gradient(
+    to bottom,
+    #1F1F1FB2,
+    #1F1F1FB2 10px,
+    transparent 10px,
+    transparent 25px
+  );
+  transform: translateX(-50%);
+  transition: height .5s ease-in-out;
+  z-index: 1;
+}
+
+.vertical-line.grow {
+  height: 40%; 
+}

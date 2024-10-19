@@ -1,30 +1,15 @@
 import React, {useEffect, useState} from "react";
 import CardPath from "../sub_components/CardPath";
 import SearchBar from "../sub_components/Searchbar";
-import './Learning_path.css'
+import VerticleLine from "../sub_components/VerticleLine";
+// import './Learning_path.css'
 
 
 
 
 function Learning_path() {
-
-
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollPosition = window.scrollY;
-      if (scrollPosition > 20) {
-        setIsVisible(true);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+   
+ 
 
 
   return (
@@ -33,56 +18,64 @@ function Learning_path() {
       <div className="main-container">
         <div className="path-title" style={{fontSize:'40px' , fontWeight:'600' , marginLeft:'2vw' , marginTop:'10vh'}}>Start Your Learning Today 🎯</div>
         
-        <div className={`vertical-line ${isVisible ? 'grow' : ''}`}></div>
-
+        
+        <VerticleLine style={{top:'70%'}} ScrollPosition = {20} growStyle={{height: '40%'}} />
         <CardPath
           className="card-1"
           number="01"
           title="Introduction"
           description="Overview of what doping is and its impact on athletes and sports."
         />
+        <VerticleLine style={{top:'112%'}} ScrollPosition = {580} growStyle={{height: '50%'}}/>
         <CardPath
           className="card-2"
           number="02"
           title="Prohibited Substances"
           description="Detailed explanation of substances banned by the World Anti-Doping Agency (WADA)."
         />
+        <VerticleLine style={{top:'163%'}} ScrollPosition = {1070} growStyle={{height: '45%'}}/>
         <CardPath
           className="card-3"
           number="03"
           title="Testing Procedures"
           description="How doping control works, including sample collection, testing, and the rights of athletes."
         />
+        <VerticleLine style={{top:'210%'}} ScrollPosition = {1480} growStyle={{height: '45%'}}/>
         <CardPath
           className="card-4"
           number="04"
           title="Consequences of Doping"
           description="Legal, health, and career consequences of doping violations."
         />
+        <VerticleLine style={{top:'255%'}} ScrollPosition = {1800} growStyle={{height: '45%'}}/>
         <CardPath
           className="card-5"
           number="05"
           title="Therapeutic Use Exemptions"
           description="Understanding TUEs and how athletes can apply for permission to use prohibited substances."
         />
+        <VerticleLine style={{top:'300%'}} ScrollPosition = {2100} growStyle={{height: '45%'}}/>
         <CardPath
           className="card-6"
           number="06"
           title="Athlete’s Rights & Responsibilities"
           description="Overview of an athlete’s responsibilities regarding anti-doping."
         />
+        <VerticleLine style={{top:'348%'}} ScrollPosition = {2400} growStyle={{height: '45%'}}/>
         <CardPath
           className="card-7"
           number="07"
           title="Importance of Nutrition "
           description="Information on proper nutrition for performance. How to choose safe and approved supplements."
         />
+        <VerticleLine style={{top:'395%'}} ScrollPosition = {2700} growStyle={{height: '45%'}}/>
         <CardPath
           className="card-8"
           number="08"
           title="Real-Life Case Studies"
           description="Interactive modules featuring real-life doping cases."
         />
+        <VerticleLine style={{top:'440%'}} ScrollPosition = {3000} growStyle={{height: '45%'}}/>
         <CardPath
           className="card-9"
           number="09"
