@@ -6,7 +6,7 @@ import SearchIcon from "@mui/icons-material/Search";
 
 
 
-const SearchBar = () => {
+const SearchBar = ({style = "fixed"}) => {
   const [searchQuery, setSearchQuery] = useState("");
 
   const handleInputChange = (event) => {
@@ -40,7 +40,7 @@ const SearchBar = () => {
             height:'45px' ,
         },
       }}
-      style={{ width: "20vw",height:'45px' ,borderRadius: "30px" , position:'fixed', border:'1px solid black' , right:'15px' , top:'10px'}}
+      style={{ width: "20vw",height:'45px' ,borderRadius: "30px" , border:'1px solid black' , right:'15px' , top:'10px', ...style}}
     />
   );
 };

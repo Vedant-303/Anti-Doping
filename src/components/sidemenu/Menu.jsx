@@ -72,8 +72,8 @@ const SideMenu = () => {
                 {" "}
                 <span>
                   <svg
-                    width="30"
-                    height="30"
+                    width="35"
+                    height="35"
                     viewBox="0 0 30 30"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -118,8 +118,8 @@ const SideMenu = () => {
                 {" "}
                 <span>
                   <svg
-                    width="30"
-                    height="30"
+                    width="35"
+                    height="35"
                     viewBox="0 0 30 30"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -163,8 +163,8 @@ const SideMenu = () => {
                 {" "}
                 <span>
                   <svg
-                    width="30"
-                    height="30"
+                    width="35"
+                    height="35"
                     viewBox="0 0 30 30"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -210,8 +210,8 @@ const SideMenu = () => {
                 {" "}
                 <span>
                   <svg
-                    width="36"
-                    height="36"
+                    width="35"
+                    height="35"
                     viewBox="0 0 36 36"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -284,8 +284,8 @@ const SideMenu = () => {
                 {" "}
                 <span>
                   <svg
-                    width="40"
-                    height="40"
+                    width="35"
+                    height="35"
                     viewBox="0 0 40 40"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"

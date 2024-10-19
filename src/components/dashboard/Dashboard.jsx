@@ -7,18 +7,14 @@ import SearchBar from "../sub_components/Searchbar";
 function Dashboard() {
   return (
     <>
-
-      
-
+      <SearchBar style={{position: 'fixed'}}/>
       <div className="main-container">
         <div className="middle-container">
           <div className="dashboard">
-            
             <div className="greeting">
               <h1>Hello! MD 👋</h1>
             </div>
 
-            
             <div className="stats-cards">
               <div className="card">
                 <h2>10</h2>
@@ -38,7 +34,6 @@ function Dashboard() {
               </div>
             </div>
 
-            
             <div className="analytics">
               <h2>Analytics 📈</h2>
               <div className="analytics-cards">
@@ -161,9 +156,6 @@ function Dashboard() {
           blanditiis quos, unde quaerat eaque, omnis magnam cumque assumenda?
         </div>
       </div>
-
-
-      <SearchBar/>
 
       <div className="profile-card">
         <div className="profile-picture">
