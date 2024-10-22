@@ -3,13 +3,14 @@ import { NavLink, Link } from "react-router-dom";
 import "./SideMenu.css";
 import menuicon from "../../assets/menu.png";
 import menuicon2 from "../../assets/menu2.png";
+import useSideMenu from '../sub_components/useSideMenu';
 
-const SideMenu = () => {
-  const [isOpen, setIsOpen] = useState(false);
+const SideMenu = ({isOpen, toggleMenu}) => {
+  // const { isOpen, toggleMenu } = useSideMenu();
 
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
+  // const toggleMenu = () => {
+  //   setIsOpen(!isOpen);
+  // };
 
   return (
     <>

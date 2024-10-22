@@ -4,11 +4,18 @@ import SearchBar from "../sub_components/Searchbar";
 import VerticleLine from "../sub_components/VerticleLine";
 import imgsvg from "../sub_components/ImagesSvgs";
 // import './Learning_path.css'
+import useSideMenu from '../sub_components/useSideMenu';
+import SideMenu from "../sidemenu/Menu";
 
 function Learning_path() {
+  const { isOpen, toggleMenu } = useSideMenu();
+  
+  
   return (
     <>
-      <SearchBar style={{ position: "absolute" }} />
+    <SideMenu isOpen={isOpen} toggleMenu={toggleMenu} />
+    {/* <button onClick={toggleMenu} style={{width: "80px", height:'180px'}}></button> */}
+      <SearchBar  style={{ position: "absolute" }} />
       <div className="main-container">
         <div
           className="path-title"
@@ -25,7 +32,7 @@ function Learning_path() {
         <VerticleLine
           style={{
             top: "61%",
-            left: "45%",
+            left: `${isOpen? "95%" : "45%"}`,
             rotate: "90deg",
             transitionDuration: "0s",
           }}

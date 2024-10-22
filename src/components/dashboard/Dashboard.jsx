@@ -3,10 +3,13 @@ import SideMenu from "../sidemenu/Menu";
 import "./Dashboard.css";
 import profileimg from "../../assets/sample.jpg";
 import SearchBar from "../sub_components/Searchbar";
+import useSideMenu from '../sub_components/useSideMenu';
 
 function Dashboard() {
+  const { isOpen, toggleMenu } = useSideMenu();
   return (
     <>
+      <SideMenu isOpen={isOpen} toggleMenu={toggleMenu}/>
       <SearchBar style={{position: 'fixed'}}/>
       <div className="main-container">
         <div className="middle-container">
