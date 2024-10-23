@@ -4,19 +4,19 @@
   left: 50%;
   top: 70%;
   width: 6px;
-  height: 0; 
+  height: 0;
   background: repeating-linear-gradient(
     to bottom,
-    #1F1F1FB2,
-    #1F1F1FB2 10px,
+    rgba(31, 31, 31, 0.7),
+    rgba(31, 31, 31, 0.7) 10px,
     transparent 10px,
     transparent 25px
   );
   transform: translateX(-50%);
-  transition: height .5s ease-in-out;
+  transition: height 0.5s ease-in-out, left 0.5s ease-in-out;
   z-index: 1;
 }
 
 .vertical-line.grow {
-  height: 40%; 
+  height: 40%;
 }
