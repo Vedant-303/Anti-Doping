@@ -332,68 +332,10 @@ function Learning_path() {
               flexReverse={{ flexDirection: "row-reverse" }}
             />
           </div>
+          <button class="start-button">Start Now</button>
         </div>
         
-        
-        
-        <div className="lorem" style={{ marginTop: "100vh" }}>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos
-          officiis repellendus explicabo sint molestiae temporibus tempora
-          doloribus, sapiente at, harum culpa tempore! Dicta suscipit nulla
-          ipsam sequi quibusdam necessitatibus, quos provident non sed
-          consectetur ab omnis sapiente sunt, iste inventore nesciunt porro
-          quisquam et a odit delectus, similique modi quia. Odit, unde eius quis
-          excepturi ullam magnam reiciendis nesciunt sed rem velit illo adipisci
-          ad officia. Dolorum quidem alias eveniet ut cum explicabo saepe totam
-          incidunt? Perspiciatis ut expedita assumenda minus illo autem porro
-          similique aperiam quisquam, iure sit. Accusamus repudiandae laboriosam
-          debitis ipsa officia itaque harum alias quisquam ducimus numquam,
-          explicabo, nemo autem assumenda totam maiores, magnam beatae. Velit
-          delectus culpa fugiat neque praesentium harum rem labore optio porro
-          ab. Vero autem, facilis fugit rerum fuga similique eum optio fugiat
-          animi delectus impedit debitis quo molestiae sint ut placeat ea,
-          laboriosam illum recusandae sunt quis. Nobis veritatis atque odio
-          fugit nulla quam perspiciatis nisi reprehenderit tenetur magnam fuga,
-          cupiditate animi quisquam harum asperiores est temporibus ab
-          repudiandae, vitae recusandae, blanditiis officiis impedit. Vel sequi
-          labore earum provident quas, adipisci ex eum nulla odit ea similique
-          eius quam tenetur illum eaque nihil, dicta, architecto harum placeat
-          itaque at ratione. Fuga aspernatur praesentium ducimus dolores! Odio
-          adipisci eos sint, vero molestias ullam deserunt aperiam excepturi
-          magni fugit, exercitationem error soluta sapiente ducimus labore
-          quibusdam iusto, ut molestiae dicta earum voluptates laboriosam quos
-          incidunt. Vero incidunt, veniam a cumque illum fuga aliquam quis sunt.
-          Minima similique voluptate nihil, eum explicabo distinctio odio
-          tempore error totam, officiis, perferendis sed placeat eius dolor
-          doloremque harum. Inventore, excepturi vitae illum velit ullam eveniet
-          cum iure? Eum harum quia, odit quidem obcaecati fugit quis, dolores
-          eaque, labore nisi ea dolorum. Suscipit, excepturi? Tempore impedit
-          eius delectus? Quisquam dicta, facilis incidunt distinctio tempora
-          doloremque voluptas in quaerat, nobis, adipisci vel totam laudantium
-          iste tempore molestias veniam. Ullam suscipit, dignissimos quo facilis
-          consequatur, nesciunt, quis quisquam recusandae laborum perferendis
-          explicabo architecto a sapiente. Veniam corrupti quos, dolorem nihil
-          quis architecto, incidunt voluptate nostrum repudiandae natus
-          exercitationem id reprehenderit minima saepe, aut totam voluptatem
-          temporibus eius! Maiores voluptatem doloremque quo odit soluta labore
-          obcaecati amet, dolor consectetur ullam, veritatis explicabo ab
-          voluptatibus nam optio recusandae quis fugiat exercitationem deserunt
-          perferendis culpa nobis animi aliquid atque? Id quibusdam accusantium,
-          quo excepturi eius repellendus! Explicabo quidem quos accusantium eum
-          quas labore omnis, ratione quae, saepe doloremque commodi tempora
-          ipsam provident rem eius aperiam officiis nesciunt cum, ullam a velit
-          totam animi sint! Numquam nam nihil, quisquam dolores dolore facere
-          vitae quo cum voluptate deleniti beatae omnis consequuntur suscipit
-          expedita voluptatum reprehenderit ratione voluptatibus ea perspiciatis
-          nemo. At recusandae laudantium perspiciatis dicta, libero officiis.
-          Rem esse et quia dolorum porro provident possimus nobis, distinctio
-          commodi excepturi! Maxime, quisquam at! Nesciunt veniam in at tempora
-          fugit fuga sit amet, tempore possimus consequuntur culpa eum odit
-          provident temporibus. Odit iste sit iusto aliquam, voluptate saepe
-          dolores aperiam, consequatur eos dicta ut ipsa consequuntur harum quae
-          enim, quisquam accusamus dolorem officiis ab provident excepturi
-          ducimus?
-        </div>
+      
       </div>
     </>
   );

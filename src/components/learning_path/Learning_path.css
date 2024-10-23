@@ -10,20 +10,17 @@
 }
 
 .side-menu.open ~ .main-container2{
-    /* width: 70vw; */
+   
     margin-left: 19vw;
     transition: margin-left 0.3s ease;
 }
 .side-menu ~ .main-container2{
-    /* width: 70vw; */
+   
     margin-left: 70px;
     transition: margin-left 0.3s ease;
 }
 .main-container2{
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
+   
     margin: auto;
     
 }
@@ -37,7 +34,7 @@
 .main-card2{
     display: flex;
     justify-content: flex-end;
-    /* align-self: flex-end; */
+   
     width: 100%;
     height: 100%;
     
@@ -49,3 +46,22 @@
     transition: all 0.3s ease;
 }
 
+
+
+.start-button {
+    font-size: 2rem;
+    color: #333;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 40px;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 10% 0;
+}
+
+.start-button:hover {
+    color: #555;
+}
