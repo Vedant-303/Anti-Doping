@@ -1,0 +1,87 @@
+.side-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 65px;
+    background-color: #333;
+    background-color: #F8F9FA;
+    transition: width 0.3s ease;
+    overflow: hidden;
+    border-right: 2px solid #D9D9D9;
+  }
+  
+  .side-menu.open {
+    width: 18vw; 
+  }
+  
+  .menu-toggle{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    /* background-color: #444; */
+    /* padding: 10px; */
+    /* border-radius: 50%; */
+    cursor: pointer;
+    /* border: 2px solid; */
+    z-index: 1;
+  }
+  
+  .menu-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-nav li {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+    
+  }
+  
+  .side-menu .menu-nav li span {
+    margin-left: 0px;
+  }
+ 
+
+  .menu-nav li a{
+    text-decoration: none;
+  }
+  .menu-nav li a{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px; */
+    color: #000000;
+    opacity: 70%;
+  }
+  
+  
+  .side-menu.open li div:nth-child(2) {
+    display: block;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+  .side-menu li div:nth-child(2) {
+    margin-left: 15px;
+    display: none;
+    
+  }
+
+  
+
+  .side-menu.open ~ .main-container{
+    /* width: 70vw; */
+    margin-left: 19vw;
+    transition: margin-left 0.3s ease;
+  }
+  .side-menu ~ .main-container{
+    /* width: 70vw; */
+    margin-left: 70px;
+    transition: margin-left 0.3s ease;
+  }
